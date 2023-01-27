@@ -1,0 +1,32 @@
+body {
+    padding: 0;
+    margin: 0;
+    background:black;
+    color:white;
+    font-family:monospace;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+main {
+    border: 3px solid red;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+form {
+    display:flex;
+    flex-direction:column;
+    font-size: 150%;
+    gap: 10px;
+}
+
+#showbutton {
+    font-size:150%;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 1%;
+    color:white;
+    text-decoration:none;
+}
+
